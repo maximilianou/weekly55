@@ -27,13 +27,12 @@ const SFooter = () => {
   ];
   return (
     <footer className={footerStyle}>
-      <h3>Contact Simple Doers Software Engineers</h3>
       <ul className={ulStyle}>
         {footerItem.map((data, index ) => (
           <li key={index} className={liStyle} >
             <Link href={data.href} target={"_blank"}>
               <button className={buttonStyle}>
-              { data.imageSrc && <Image width={40} height={30} src={data.imageSrc}></Image> }
+              { data.imageSrc && <Image width={40} height={30} src={data.imageSrc} /> }
               {data.content}
               </button>
             </Link>
@@ -59,6 +58,8 @@ const buttonStyle = `
 `;
 
 const footerStyle = `
+  bg-transparent
   py-4 px-6 
   text-sm font-medium
+  flex justify-center
 `;

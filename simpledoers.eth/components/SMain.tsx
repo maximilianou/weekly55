@@ -1,39 +1,38 @@
 const SMain = () => {
   return (
-    <main>
-      <h1>Simple Doers</h1>
-      <h2>Software Engineers</h2>
-      <section>
+    <main className="flex justify-center flex-col items-center">
+      <div className="max-w-screen-lg " >
+        <video src={'./video_apt_02.mp4'} muted={true} autoPlay={true} loop={true}  />
+      </div>
+      <section className="max-w-screen-lg bg-transparent -mt-80 " >
         <article>
-          <h3>Who simple doers are </h3>
+          <h3>Who simple doers Are </h3>
           <ul>
             <li>
-              We are believers, We believe in continuous improvement, and we are
+              "We are Believers", We believe in continuous improvement, and we are
               persistent in this field, we love to apply this concept to every
               aspect of our lives.
             </li>
           </ul>
         </article>
         <article>
-          <h3>What simple doers do </h3>
+          <h3>What simple doers Have</h3>
           <ul>
             <li>
-              We are Software Engineers for approximately 20 years, consistently
-              working with the latest trends, focusing on simplifying complexity
-              and working with teams to align on the Goal. We have worked for
+              "We have Passion", We have worked for
               big companies and startups too, on big teams and small teams, so
               we can blend into any environment.
             </li>
           </ul>
         </article>
         <article>
-          <h3>Why simple doers do this</h3>
+          <h3>Why simple doers Do</h3>
           <ul>
             <li>
-              "We can Do It", We listen What have to be made to grow up, we know
+              "We Can Do It", We listen What have to be made to grow up, we know
               there are simple ways to do that. We love our jobs, our
-              professions, the tools that make things possible, We do what we
-              love.
+              professions, the tools that make things possible, We Do what we
+              Love.
             </li>
           </ul>
         </article>
@@ -43,3 +42,5 @@ const SMain = () => {
 };
 
 export default SMain;
+
+
