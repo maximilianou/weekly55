@@ -4,6 +4,7 @@ const SMain = () => {
       <div className="max-w-screen-lg " >
         <video src={'./video_apt_02.mp4'} muted={true} autoPlay={true} loop={true}  />
       </div>
+      <div>
       <section className="max-w-screen-lg bg-transparent -mt-80 " >
         <article>
           <h3>Who simple doers Are </h3>
@@ -37,6 +38,7 @@ const SMain = () => {
           </ul>
         </article>
       </section>
+      </div>
     </main>
   );
 };
