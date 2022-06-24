@@ -26,10 +26,10 @@ const SFooter = () => {
     },
   ];
   return (
-    <footer className={footerStyle }>
+    <footer className={footerStyle}>
       <ul className={ulStyle}>
         {footerItem.map((data, index ) => (
-          <li key={index} className={liStyle} >
+          <li key={index} className={`${liStyle} `} >
             <Link href={data.href} target={"_blank"}>
               <button className={buttonStyle}>
                 { data.imageSrc && <Image width={40} height={30} src={data.imageSrc} /> }
@@ -49,6 +49,7 @@ const liStyle = `
   bg-orange-500 shadow-lg shadow-orange-500/50
   text-slate-100
   rounded-xl
+  
   p-2 
   `;
 const buttonStyle = `
@@ -62,5 +63,5 @@ const footerStyle = `
   py-4 px-6 
   text-sm font-medium
   flex justify-center
-  z-10
+  
 `;
