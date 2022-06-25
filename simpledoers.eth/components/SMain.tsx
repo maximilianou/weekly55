@@ -1,23 +1,21 @@
 const SMain = () => {
   const sdcontent: {title: string, content: string}[] = [
     {
-      title: `Who simple doers Are`,
-      content: `We are Believers", We believe in continuous improvement, and we are
-      persistent in this field, we love to apply this concept to every
-      aspect of our lives.`,
+      title: ``,
+      content: `Continuous Improvement,
+      Persistent in this field`,
     },
     {
-      title: `What simple doers Have`,
-      content: `We have Passion", We have worked for
-      big companies and startups too, on big teams and small teams, so
-      we can blend into any environment.`,
+      title: ``,
+      content: `Passion, Blend any Environment.`,
     },
     {
-      title: `Why simple doers Do`,
-      content: `We Can Do It", We listen What have to be made to grow up, we know
-      there are simple ways to do that. We love our jobs, our
-      professions, the tools that make things possible, We Do what we
-      Love.`,
+      title: ``,
+      content: `Can Do, Grow up, Simple ways.`,
+    },
+    {
+      title: ``,
+      content: `Last Trending.`,
     },
   ];
   return (
@@ -27,11 +25,7 @@ const SMain = () => {
         <article className={"p-1 m-1 border-solid border-2 rounded-lg"}>
           <h3>{art.title}</h3>
           <ul>
-            <li>
-              "We are Believers", We believe in continuous improvement, and we are
-              persistent in this field, we love to apply this concept to every
-              aspect of our lives.
-            </li>
+            <li>{art.content}</li>
           </ul>
         </article>
         ))}
