@@ -22,14 +22,7 @@ const SMain = () => {
   ];
   return (
     <main className="flex justify-center flex-col items-center">
-      <div className="max-w-screen-lg " >
-        <video src={'./video_apt_02.mp4'} 
-               muted={true} autoPlay={true} loop={true}  
-        />
-      </div>
-      <div>
-      <div className={"-mt-80"}>
-      <section className="max-w-screen-lg bg-transparent " >
+      <section  >
         { sdcontent.map( (art, indx) => (
         <article className={"p-1 m-1 border-solid border-2 rounded-lg"}>
           <h3>{art.title}</h3>
@@ -43,8 +36,6 @@ const SMain = () => {
         </article>
         ))}
       </section>
-      </div>
-      </div>      
     </main>
   );
 };

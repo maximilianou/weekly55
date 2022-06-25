@@ -6,7 +6,13 @@ import SMain from "../components/SMain";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[#333] text-slate-300 w-screen h-screen">
+    <>
+      <div className="fixed right-0 bottom-0 min-w-full min-h-full" >
+        <video src={'./video_apt_02.mp4'} 
+               muted={true} autoPlay={true} loop={true}  
+        />
+      </div>
+    <div className="fixed bottom-0 w-screen bg-[rgba(0,0,0,0.5)] text-slate-300 ">
       <Head>
         <title>Simple Doers</title>
         <meta
@@ -20,6 +26,7 @@ const Home: NextPage = () => {
       <SMain />
       <SFooter />
     </div>
+    </>
   );
 };
 

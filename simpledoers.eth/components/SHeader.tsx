@@ -1,9 +1,9 @@
+import Link from "next/link";
+
 const SHeader = () => {
   return ( 
-  <header>
-    H e a d e r
+  <header className={`block`}>
   </header> 
-  );
-  
+  );  
 };
 export default SHeader;
