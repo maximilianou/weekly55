@@ -1,5 +1,5 @@
 const SMain = () => {
-  const sdcontent: {title: string, content: string}[] = [
+  const sdcontent: {title: string, content: string, imgSrc?: string }[] = [
     {
       title: ``,
       content: `Continuous Improvement,
