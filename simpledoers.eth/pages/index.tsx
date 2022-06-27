@@ -6,27 +6,29 @@ import SMain from "../components/SMain";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <div>
       <div className="fixed right-0 bottom-0 min-w-full min-h-full" >
         <video src={'./video_bg.mp4'} 
                muted={true} autoPlay={true} loop={true}  
         />
       </div>
-    <div className="fixed bottom-0 w-screen bg-[rgba(0,0,0,0.5)] text-slate-300 ">
+    <div 
+    className="fixed top-0 w-screen 
+     bg-[rgba(0,0,0,0.5)] text-slate-300 ">
       <Head>
         <title>Simple Doers</title>
         <meta
           name="description"
           content="typescript nodejs ens ipfs simpledoers.eth nextjs tailwind ethereum web3 "
         />
-        <link rel="icon" href="/maxlogo.svg" />
+        <link rel="icon" href="/max_logo.svg" />
       </Head>
       <SHeader />
      
       <SMain />
       <SFooter />
     </div>
-    </>
+    </div>
   );
 };
 

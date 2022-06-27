@@ -2,10 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 
 const SFooter = () => {
-  const footerItem: { href: string; content: string, imageSrc?: string }[] = [
+  const footerItem: { href: string; content: string, imageSrc: string }[] = [
     { href: "mailto:maximilianou@gmail.com", 
       content: "Email",
-      imageSrc: "/maxlogo.svg" 
+      imageSrc: "/max_logo.svg" 
     },
     { href: "https://github.com/maximilianou/", 
       content: "GitHub",
@@ -19,7 +19,7 @@ const SFooter = () => {
     {
       href: "http://buymeacryptocoffee.xyz/0xdcbb510698bd5d975c907c9166e3ee3de0f8b21b?ref=button_widget",
       content: "Donate a Crypto coffee",
-      imageSrc: "/eth_icon_purple.svg" 
+      imageSrc: "/eth_logo.svg" 
     },
     {
       href: "https://buymeacoffee.com/simpledoers/",
@@ -34,7 +34,7 @@ const SFooter = () => {
           <li key={index} className={`${liStyle} `} >
             <Link href={data.href} target={"_blank"}>
               <button className={buttonStyle}>
-                { data.imageSrc && <Image width={40} height={30} src={data.imageSrc} /> }
+                { data.imageSrc && <Image width={40} height={30} src={data.imageSrc} alt={data.content} /> }
                 { data.content }
               </button>
             </Link>
