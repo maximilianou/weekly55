@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           name="description"
           content="typescript nodejs ens ipfs simpledoers.eth nextjs tailwind ethereum web3 "
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/maxlogo.svg" />
       </Head>
       <SHeader />
      

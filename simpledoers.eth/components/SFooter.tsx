@@ -4,7 +4,9 @@ import Link from "next/link";
 const SFooter = () => {
   const footerItem: { href: string; content: string, imageSrc?: string }[] = [
     { href: "mailto:maximilianou@gmail.com", 
-      content: "Email" },
+      content: "Email",
+      imageSrc: "/maxlogo.svg" 
+    },
     { href: "https://github.com/maximilianou/", 
       content: "GitHub",
       imageSrc: "/github_logo.svg" 
