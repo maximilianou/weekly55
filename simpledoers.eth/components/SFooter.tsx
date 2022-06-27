@@ -3,10 +3,6 @@ import Link from "next/link";
 
 const SFooter = () => {
   const footerItem: { href: string; content: string, imageSrc: string }[] = [
-    { href: "mailto:maximilianou@gmail.com", 
-      content: "Email",
-      imageSrc: "/max_logo.svg" 
-    },
     { href: "https://github.com/maximilianou/", 
       content: "GitHub",
       imageSrc: "/github_logo.svg" 
@@ -25,6 +21,10 @@ const SFooter = () => {
       href: "https://buymeacoffee.com/simpledoers/",
       content: "Donate a coffee",
       imageSrc: "/cup_of_coffee.svg" 
+    },
+    { href: "mailto:maximilianou@gmail.com", 
+      content: "email",
+      imageSrc: "/max_logo.svg" 
     },
   ];
   return (

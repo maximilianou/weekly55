@@ -52,7 +52,7 @@ const SMain = () => {
     <main className=" ">
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 md:gap-4  " >
         { sdcontent.map( ({ title, content, imgSrc }, indx) => (
-          <figure className="rounded-xl p-8 md:p-0 bg-[rgb(33,33,33,0.5)]"
+          <figure className="rounded-xl p-8 md:p-0 "
           key={indx}>
             <Image 
               width={300} height={70}
