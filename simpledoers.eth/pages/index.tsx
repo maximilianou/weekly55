@@ -8,7 +8,7 @@ const Home: NextPage = () => {
   return (
     <>
       <div className="fixed right-0 bottom-0 min-w-full min-h-full" >
-        <video src={'./video_apt_02.mp4'} 
+        <video src={'./video_bg.mp4'} 
                muted={true} autoPlay={true} loop={true}  
         />
       </div>
