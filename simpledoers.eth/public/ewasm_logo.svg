@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg8" inkscape:export-filename="/home/hugo/ewasm_logo/ewasm_logo_203x287.png" inkscape:export-xdpi="133.52" inkscape:export-ydpi="133.52" inkscape:version="0.92.2 2405546, 2018-03-11" sodipodi:docname="ewasm_logo_text.svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 153.1 232.4"
+	 style="enable-background:new 0 0 153.1 232.4;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFBFB;fill-opacity:0;}
+	.st1{fill:#828384;}
+	.st2{fill:#654EFF;}
+	.st3{fill:#3521BB;}
+	.st4{fill:#2F3030;}
+	.st5{fill:#343535;}
+	.st6{fill:#131313;}
+	.st7{font-family:'Roboto-Light';}
+	.st8{font-size:28.3213px;}
+	.st9{font-size:27.4572px;}
+</style>
+<sodipodi:namedview  bordercolor="#666666" borderopacity="1.0" id="base" inkscape:current-layer="layer1" inkscape:cx="27.400356" inkscape:cy="203.83772" inkscape:document-units="mm" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:window-height="861" inkscape:window-maximized="0" inkscape:window-width="1596" inkscape:window-x="1366" inkscape:window-y="37" inkscape:zoom="1.5828506" pagecolor="#ffffff" showgrid="false">
+	</sodipodi:namedview>
+<rect id="rect868" x="0" y="-0.5" inkscape:export-xdpi="96.099998" inkscape:export-ydpi="96.099998" class="st0" width="153.1" height="215.4">
+</rect>
+<path id="path4583" inkscape:connector-curvature="0" class="st1" d="M77.7,1.1L23.1,92l54.3,18L77.7,1.1z"/>
+<path id="path4623" inkscape:connector-curvature="0" class="st2" d="M131.8,105.7L86.9,121c2.2,2.1,3.6,4.7,3.6,7.6
+	c0,6.3-5.7,11.5-12.7,11.5c-7,0-12.7-5.1-12.7-11.5c0-2.8,1.2-5.6,3.3-7.7l-45.2-14.9l54.5,75.5L131.8,105.7z"/>
+<path id="path4585" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" class="st3" d="M131.8,105.7l-54.1,75.9l0,0
+	v-41.4c6.9-0.1,12.5-5.2,12.5-11.5c0-2.8-1.2-5.6-3.3-7.7L131.8,105.7z"/>
+<path id="path4608" inkscape:connector-curvature="0" class="st4" d="M77.7,1.1l54.1,91l-54.3,18L77.7,1.1z"/>
+<path class="st5" d="M77.5,101.5l0.3-31.3L23.1,92l44.6,14.7c-1.2,1.7-1.9,3.7-1.9,5.9c0,6.1,5.5,11.1,12.3,11.1v-22.3
+	C77.9,101.5,77.7,101.5,77.5,101.5z"/>
+<path class="st6" d="M131.8,92L77.7,70.5l-0.2,39.4v13.9c7,0,12.6-5.2,12.6-11.5c0-2.2-0.7-4.2-1.8-5.9L131.8,92z"/>
+<text transform="matrix(1.0214 0 0 1 46.6025 212.4189)" class="st3 st7 st8">wasm</text>
+<text transform="matrix(0.9865 0 0 1 32.7373 212.4268)" class="st5 st7 st9">e</text>
+</svg>
