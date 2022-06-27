@@ -49,18 +49,18 @@ const SMain = () => {
     },
   ];
   return (
-    <main className="">
+    <main className=" ">
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 md:grid-cols-3 md:gap-4  " >
         { sdcontent.map( ({ title, content, imgSrc }, indx) => (
           <figure className="rounded-xl p-8 md:p-0 bg-[rgb(33,33,33,0.5)]"
           key={indx}>
             <Image 
-              width={200} height={50}
+              width={300} height={70}
               className="md:h-auto md:rounded-none rounded-full mx-auto " 
               src={imgSrc} alt={title}/>
             <div className="pt-6 md:p-8 text-center md:text-left space-y-4">
               <blockquote>
-                <p className="text-lg font-medium">{content}</p>
+                <p className="text-2xl font-medium">{content}</p>
               </blockquote>
               <figcaption className="font-medium">
                 <div className="text-slate-700 dark:text-slate-500">
