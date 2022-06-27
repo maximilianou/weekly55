@@ -9,7 +9,7 @@ const SMain = () => {
     },
     {
       title: ``,
-      content: `Persistent in this field`,
+      content: `Persistent`,
       imgSrc: '/linux_logo.svg'
     },
     {
@@ -19,7 +19,7 @@ const SMain = () => {
     },
     {
       title: ``,
-      content: `Blend any Environment.`,
+      content: `Blend any Environment`,
       imgSrc: '/javascript_logo.svg',
     },
     {
@@ -29,22 +29,22 @@ const SMain = () => {
     },
     {
       title: ``,
-      content: `Simple ways.`,
+      content: `Simple ways`,
       imgSrc: `/ethereum_ens_logo.svg`,
     },
     {
       title: ``,
-      content: `Simple tools.`,
+      content: `Simple tools`,
       imgSrc: `/hardhat_logo.svg`,
     },
     {
       title: ``,
-      content: `Autonomous.`,
+      content: `Autonomous`,
       imgSrc: `/docker_logo.svg`,
     },
     {
       title: ``,
-      content: `Last Trending.`,
+      content: `Last Trending`,
       imgSrc: `/ethereum_logo.svg`,
     },
   ];
