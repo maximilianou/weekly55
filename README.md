@@ -3,9 +3,44 @@ home nextjs dapp static site fleek typescript nodejs ens ipfs simpledoers.eth
 ----
 
 ----
-- 
-```tsx
+- static site - out/ 
+  
+- SVG - npm run export - nextjs - typescript - fix upload
 
+```tsx
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  images: {
+    loader: 'akamai',
+    path: '',
+  },  
+}
+module.exports = nextConfig
+```
+- package.json
+```tsx
+{
+  "scripts": {
+...
+    "export": "./node_modules/.bin/next build && ./node_modules/.bin/next export",
+...
+  },
+}
+```
+
+- [ERROR][SOLVED] fixed with akamai like before text
+```
+info  - No "exportPathMap" found in "/home/debian/projects/weekly55/simpledoers.eth/next.config.js". Generating map from "./pages"
+Error: Image Optimization using Next.js' default loader is not compatible with `next export`.
+  Possible solutions:
+    - Use `next start` to run a server, which includes the Image Optimization API.
+    - Use any provider which supports Image Optimization (like Vercel).
+    - Configure a third-party loader in `next.config.js`.
+    - Use the `loader` prop for `next/image`.
+  Read more: https://nextjs.org/docs/messages/export-image-api
+    at /home/debian/projects/weekly55/simpledoers.eth/node_modules/next/dist/export/index.js:157:23
+    at async Span.traceAsyncFn (/home/debian/projects/weekly55/simpledoers.eth/node_modules/next/dist/trace/trace.js:79:20)
 ```
 
 ----
