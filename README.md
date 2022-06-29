@@ -3,11 +3,13 @@ home nextjs dapp static site fleek typescript nodejs ens ipfs simpledoers.eth
 ----
 
 ----
-- 
+- ENS Registar domain simpledoers.eth pointing to IPFS
 
 ```tsx
 
 ```
+----
+- IPFS - Deploy using **fleek.io** service
 
 ----
 - static site - out/ 
