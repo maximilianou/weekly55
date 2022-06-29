@@ -7,17 +7,25 @@ home nextjs dapp static site fleek typescript nodejs ens ipfs simpledoers.eth
   
 <ipfs://bafybeidrdqngcutznsnodnbx6xx5uqkruh6tagidefaiswtefcqwnv7gju/>
 
+**ENS Domain point to IPFS**
+
 ![ENS Domain point to IPFS](https://github.com/maximilianou/weekly55/blob/main/img/deploy_ens_domain_ipfs_20220629183431.png?raw=true "ENS Domain point to IPFS")
 
 
 ----
 - IPFS - **fleek.io** Deployed ( fleek.io subdomain access over Web2 DNS https://..)
 <https://broken-butterfly-8227.on.fleek.co/>
+
+**Deployed with fleek.io into ipfs and free subdomain**
+
 ![Deployed with fleek.io into ipfs and free subdomain](https://github.com/maximilianou/weekly55/blob/main/img/deployed_first_time_20220629183343.png?raw=true "Deployed with fleek.io into ipfs and free subdomain")
 
 ----
 - IPFS - Deploy using **fleek.io** service
 <https://fleek.io>
+
+**Deploy Dashboard supporting nextjs deployment ;)**
+
 ![Deploy Dashboard supporting nextjs deployment ;)](https://raw.githubusercontent.com/maximilianou/weekly55/main/img/deploy_fleekio_dashboard_20220629180000.png "Deploy Dashboard supporting nextjs deployment ;)" )
 
 ----
