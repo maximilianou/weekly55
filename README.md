@@ -2,7 +2,7 @@
 home nextjs dapp static site fleek typescript nodejs ens ipfs simpledoers.eth
 ----
 - <https://simpledoers.eth.limo> 
-- [simpledoers.eth](ipns://simpledoers.eth)
+- [ipns://simpledoers.eth](ipns://simpledoers.eth)
 ----
 - ENS Registar domain simpledoers.eth ( own domain ) pointing to IPFS ( ipfs://CID web3 )
   
